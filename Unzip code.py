@@ -6,7 +6,7 @@ path_str="C:\\Users\\Harshit\\Desktop\\New folder (2)"#same path as above
 for folder in os.listdir(path):
     print(folder)#all names of files in the directory    
     
-#unzip downloaded data. If not unzipped delete the downloaded image.
+#unzip data, if not unzipped the code will delete the zipped data.
 import zipfile
 for folder in os.listdir(path):
     if folder[-4:]=='.zip':
