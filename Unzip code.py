@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
 
 import os
 path=os.chdir("C:\\Users\\Desktop\\New folder (2)")#put your working directory
@@ -24,8 +20,6 @@ for folder in os.listdir(path):
             except:
                 print("Error Deleting "+folder[:-3]+"SAFE")
 
-
-# In[ ]:
 
 
 
